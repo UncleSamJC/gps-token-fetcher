@@ -1,0 +1,20 @@
+{
+  "name": "token-login-api",
+  "version": "1.0.0",
+  "description": "API for token login",
+  "main": "api/login.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "echo 'This is a serverless function'"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["api", "login", "token", "vercel"],
+  "author": "Dezhi",
+  "license": "MIT"
+}
